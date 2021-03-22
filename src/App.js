@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="https://adcash.com/wp-content/themes/adcash/assets/dist/img/logo-adcash.svg"></img>
+        <img src="https://adcash.com/wp-content/themes/adcash/assets/dist/img/logo-adcash.svg" alt=""></img>
          <h1>Adcash tag creation assignment-FrontEnd Intern </h1>
       <h3>Please enter the number of times you have travelled out of Estonia in the following years respectively:</h3>
       <ul>
