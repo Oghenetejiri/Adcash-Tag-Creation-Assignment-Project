@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: gray;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App {
+  font-family: sans-serif;
+  max-width: 1980px;
+}
+h1 {
+  text-align: center;
+  color: #5a2171;
+}
+.tag-container {
+  min-width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+}
+.tag {
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+  height: 25px;
+  align-items: center;
+  border: 1px solid grey;
+  margin: 2px, 5px, 2px, 0px;
+  background: yellowgreen;
+}
+.tag-container input {
+  border: none;
+  flex: 1;
+  outline: none;
+  padding: 5px;
+}
+.tag span {
+  margin-left: 5px;
+  cursor: pointer;
+  color: red;
+}
+li {
+  list-style: none;
+  color: purple;
 }
