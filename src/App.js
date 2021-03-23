@@ -49,6 +49,12 @@ localStorage.setItem('my-tags', JSON.stringify(tags));
 
         <input type ="number" placeholder="Input digit and press enter" onKeyDown={addTag} />
       </div>
+  
+      <small>
+           <a href="https://github.com/Oghenetejiri/Adcash-Tag-Creation-Assignment-Project" target="blank" class="author">
+            Open-source code 
+           </a> by Oghenetejiri Frances Otor
+            </small>
       </header>
       
     </div>
