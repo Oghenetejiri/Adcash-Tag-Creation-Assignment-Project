@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import './App.css';
 
 function App() {
@@ -17,6 +17,15 @@ function App() {
     let newTags = tags.filter((tag) => tag !== removeTag);
     setTags(newTags);
   };
+  useEffect (() =>{
+    let localData = localStorage.getItem('my-tags');
+    if (localData) {
+      setTags(JSON.parse(localData));
+    }
+    }, [])
+  useEffect(() =>{
+localStorage.setItem('my-tags', JSON.stringify(tags));
+  });
   return (
     <div className="App">
       <header className="App-header">
