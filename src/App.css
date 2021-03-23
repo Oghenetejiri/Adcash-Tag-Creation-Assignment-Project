@@ -45,13 +45,12 @@ h1 {
   color: #5a2171;
 }
 .tag-container {
-  min-width: 60%;
-  display: flex;
-  flex-wrap: wrap;
+  min-width: 1%;
+  display: block;
   min-height: 30px;
   border: 1px solid grey;
   border-radius: 5px;
-  padding: 10px;
+  padding: 30px;
 }
 .tag {
   display: flex;
@@ -62,6 +61,7 @@ h1 {
   border: 1px solid rgb(151, 150, 150);
   margin: 2px, 5px, 2px, 0px;
   background: yellowgreen;
+  border: 5px;
 }
 .tag-container input {
   border: none;
